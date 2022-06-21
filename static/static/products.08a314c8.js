@@ -1,0 +1,1 @@
+import{u as e,r as o,b as c,d as r,o as u,e as n,f as p}from"./index.5cb6e4a5.js";const i={__name:"products",setup(l){e();const t=o({});c(()=>{s()});const s=async()=>{await r.get("api/v1/products/").then(a=>{t.value=a.data})};return(a,d)=>(u(),n(p,{products:t.value,title:"All products availables"},null,8,["products"]))}};export{i as default};
